@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Uncial+Antiqua&display=swap');
+
+body {
+    font-family: "Uncial Antiqua", system-ui;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #333;
+}

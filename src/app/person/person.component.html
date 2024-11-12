@@ -1,0 +1,68 @@
+
+<div class="person-list">
+  <div class="profile" *ngFor="let person of persons">
+    <h2 (click)="person.isExpanded = !person.isExpanded"
+        class="profile-header"
+        [class.expanded]="person.isExpanded">
+      {{ person.name }}
+      <span class="arrow">{{ person.isExpanded ? '▼' : '▶' }}</span>
+    </h2>
+    
+    <div class="profile-content" [class.expanded]="person.isExpanded">
+      <p *ngIf="person.father">Father: {{ person.father }}</p>
+      <p *ngIf="person.mother">Mother: {{ person.mother }}</p>
+      <p *ngIf="person.spouse">Spouse: {{ person.spouse }}</p>
+      
+      <div *ngIf="person.children && person.children.length > 0">
+        <h3>Children:</h3>
+        <ul>
+          <li *ngFor="let child of person.children">{{ child }}</li>
+        </ul>
+      </div>
+      
+      <div *ngIf="person.scriptures && person.scriptures.length > 0">
+        <h3>Related Scriptures:</h3>
+        <ul>
+          <li *ngFor="let scripture of person.scriptures">
+            <app-scripture [reference]="scripture"></app-scripture>
+          </li>
+        </ul>
+      </div>
+      
+      <p *ngIf="person.description">{{ person.description }}</p>
+    </div>
+  </div>
+</div>
+<!-- <div class="family-tree">
+  <div class="tree-container">
+    <div *ngFor="let level of treeStructure; let levelIndex = index" 
+         class="tree-level" 
+         [style.marginLeft.px]="levelIndex * 20">
+      <div *ngFor="let person of level" 
+           class="tree-node"
+           [class.has-children]="person.children.length">
+        <div class="node-content">
+          <h3 class="node-name" (click)="person.isExpanded = !person.isExpanded">
+            {{ person.name }}
+            <span class="expand-icon">{{ person.isExpanded ? '▼' : '▶' }}</span>
+          </h3>
+          
+          <div class="node-details" [class.expanded]="person.isExpanded">
+            <p *ngIf="person.father">Father: {{ person.father }}</p>
+            <p *ngIf="person.mother">Mother: {{ person.mother }}</p>
+            <p *ngIf="person.spouse">Spouse: {{ person.spouse }}</p>
+            <div *ngIf="person.scriptures?.length" class="scriptures">
+              <h4>Scriptures:</h4>
+              <ul>
+                <li *ngFor="let scripture of person.scriptures">
+                  {{ scripture.book }} {{ scripture.chapter }}:{{ scripture.verse }}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="connector" *ngIf="person.children?.length"></div>
+      </div>
+    </div>
+  </div>
+</div> -->

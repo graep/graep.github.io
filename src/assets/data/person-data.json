@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Abraham",
+    "father": "Terah",
+    "mother": "Talmud",
+    "spouse": "Sarah",
+    "children": [
+      "Ishmael",
+      "Isaac",
+      "Zimran",
+      "Jokshan",
+      "Medan",
+      "Midian",
+      "Ishbak",
+      "Shuah"
+    ],
+    "scriptures": [
+      { "book": "John", "chapter": 3, "verse": 16 },
+      { "book": "Genesis", "chapter": 1, "verse": 1 }
+    ],
+    "description": ""
+  }, 
+  {
+    "id": 2,
+    "name": "Isaac",
+    "father": "Abraham",
+    "mother": "Sarah",
+    "spouse": "",
+    "children": [
+      "Esau",
+      "Jacob"
+    ],
+    "scriptures": [
+      { "book": "Genesis", "chapter": 17, "verse": 17 },
+      { "book": "Genesis", "chapter": 17, "verse": 19 }
+    ],
+    "description": ""
+  }
+]

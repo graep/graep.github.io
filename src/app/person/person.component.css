@@ -1,0 +1,147 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Uncial+Antiqua&display=swap');
+.profile {
+    font-family: "Uncial Antiqua", system-ui;
+    font-size: 85%;
+    width: 50%;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  .profile-header {
+    margin: 0;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .profile-header:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .profile-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding: 0 1rem;
+  }
+  
+  .profile-content.expanded {
+    max-height: 1000px; /* Adjust based on your needs */
+    padding: 1rem;
+  }
+  
+  .arrow {
+    font-size: 0.5em;
+    margin-left: 0.5rem;
+  }
+  .family-tree {
+    padding: 2rem;
+    overflow-x: auto;
+    font-family: 'EB Garamond', serif;
+  }
+
+  .tree-container {
+    min-width: fit-content;
+  }
+
+  .tree-level {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .tree-node {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .node-content {
+    border: 2px solid #8b4513;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9f6f1;
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .node-name {
+    font-family: 'Cinzel', serif;
+    color: #2c1810;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .expand-icon {
+    font-size: 0.8em;
+    color: #8b4513;
+  }
+
+  .node-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .node-details.expanded {
+    max-height: 500px;
+    transition: max-height 0.3s ease-in;
+  }
+
+  .connector {
+    width: 2px;
+    height: 20px;
+    background-color: #8b4513;
+    margin-top: 5px;
+  }
+
+  .has-children::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 2px;
+    height: 20px;
+    background-color: #8b4513;
+  }
+
+  p {
+    margin: 0.5rem 0;
+    color: #2c1810;
+  }
+
+  .scriptures {
+    margin-top: 0.5rem;
+  }
+
+  .scriptures h4 {
+    font-family: 'Cinzel', serif;
+    color: #2c1810;
+    margin: 0.5rem 0;
+  }
+
+  .scriptures ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .scriptures li {
+    color: #2c1810;
+    margin: 0.2rem 0;
+  }
