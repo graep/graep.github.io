@@ -1,0 +1,19 @@
+
+<div class="search">
+  <input
+    type="text"
+    [(ngModel)]="searchTerm"
+    (input)="onSearch()"
+    placeholder="Search for a person..."
+  />
+  
+  <div class="search-results" *ngIf="searchResults.length > 0">
+    <div 
+      *ngFor="let person of searchResults"
+      class="search-result-item"
+      (click)="selectPerson(person)"
+    >
+      {{ person.name }}
+    </div>
+  </div>
+</div>

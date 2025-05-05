@@ -1,0 +1,20 @@
+<div class="navbar">
+  <div class="navbar-content">
+    <div class="left">  
+      <button class="hamburger" (click)="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" [class.active]="isMenuOpen">
+        <a routerLink="" routerLinkActive="active">Home</a>
+        <a routerLink="/timeline" routerLinkActive="active">Timeline</a>
+      </div>
+    </div>
+    <div class="right">  
+      <div class="search">
+        <app-search></app-search>
+      </div>
+    </div>
+  </div>
+</div>

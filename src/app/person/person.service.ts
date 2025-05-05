@@ -7,7 +7,7 @@ import { Person } from './person.model';
   providedIn: 'root'
 })
 export class PersonService {
-  private dataUrl = 'assets/data/person-data.json';  // adjust this path as needed
+  private dataUrl = 'assets/data/person-data.json';
 
   constructor(private http: HttpClient) { }
 

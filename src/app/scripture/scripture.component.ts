@@ -12,13 +12,17 @@ import { Scripture } from './scripture.model';
 export class ScriptureComponent implements OnInit {
   @Input() reference: Scripture = new Scripture();
 
+  // null check
   ngOnInit(): void {
     if (!this.reference) {
       this.reference = new Scripture();
     }
   }
   public getScriptureRef(): string {
-    return `${this.shortBook()} ${this.reference.chapter}:${this.reference.verse}`;
+    if (this.reference.endVerse) {
+      return `${this.shortBook()} ${this.reference.chapter}:${this.reference.startVerse}-${this.reference.endVerse}`;
+    }
+    return `${this.shortBook()} ${this.reference.chapter}:${this.reference.startVerse}`;
   }
 
   // Returns a link to the JW.org website for the provided scripture reference
@@ -100,7 +104,7 @@ export class ScriptureComponent implements OnInit {
   }
     
   private linkBook(): string {
-    // Check if the reference or book is undefined
+    // Checks if the reference or book is undefined
     if (!this.reference || !this.reference.book) {
       console.error('Error: reference or book is undefined', this.reference);
       return '';

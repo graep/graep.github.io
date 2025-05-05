@@ -1,0 +1,28 @@
+<div class="dropdown-container">
+  <div class="dropdown-group">
+    <label for="increment-select">Increment: </label>
+    <select 
+      id="increment-select" 
+      [value]="selectedIncrement" 
+      (change)="onIncrementChange($event)"
+      class="dropdown"
+    >
+      <option *ngFor="let option of incrementOptions" [value]="option.value">
+        {{option.label}}
+      </option>
+    </select>
+  </div>
+  <div class="dropdown-group">
+    <label for="count-select">Show: </label>
+    <select 
+      id="count-select" 
+      [value]="selectedCount" 
+      (change)="onCountChange($event)"
+      class="dropdown"
+    >
+      <option *ngFor="let option of countOptions" [value]="option.value">
+        {{option.label}}
+      </option>
+    </select>
+  </div>
+</div>

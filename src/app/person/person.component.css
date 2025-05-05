@@ -1,28 +1,38 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Uncial+Antiqua&display=swap');
-.profile {
-    font-family: "Uncial Antiqua", system-ui;
-    font-size: 85%;
-    width: 50%;
-    margin: 1rem auto;
+  .profile {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    display: table;  /* This might help with natural sizing */
   }
-  
+
   .profile-header {
-    margin: 0;
     padding: 1rem;
-    background-color: #f0f0f0;
     cursor: pointer;
+    white-space: nowrap;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    user-select: none;
-    border-radius: 4px 4px 0 0;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 4px;
+  }
+
+  .profile-content.expanded{
+    max-width: 1000px;
+    padding: 1rem;
+    width: max-content;
+  }
+
+  .profile-content ul, li {
+    padding-left: 1rem;
+    font-size: .7rem;
+    text-indent: -.6rem;
+    list-style-type: '❖';
   }
   
+  .profile-content span.label{
+    font-size: .7rem;
+  }
+
   .profile-header:hover {
     background-color: #e5e5e5;
   }
@@ -32,83 +42,37 @@
     overflow: hidden;
     transition: max-height 0.3s ease-out;
     padding: 0 1rem;
+}
+
+  .content-layout {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+  }
+  .image-container {
+      width: 50%;
+      overflow: hidden;
+  }
+
+  .image-container img {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      max-height: 300px;
+      display: block; 
+      transform-origin: top;
   }
   
   .profile-content.expanded {
-    max-height: 1000px; /* Adjust based on your needs */
+    max-height: 1000px;
     padding: 1rem;
   }
   
+
   .arrow {
     font-size: 0.5em;
-    margin-left: 0.5rem;
-  }
-  .family-tree {
-    padding: 2rem;
-    overflow-x: auto;
-    font-family: 'EB Garamond', serif;
-  }
-
-  .tree-container {
-    min-width: fit-content;
-  }
-
-  .tree-level {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    position: relative;
-  }
-
-  .tree-node {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .node-content {
-    border: 2px solid #8b4513;
-    border-radius: 8px;
-    padding: 1rem;
-    background-color: #f9f6f1;
-    min-width: 200px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-
-  .node-name {
-    font-family: 'Cinzel', serif;
-    color: #2c1810;
-    margin: 0;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .expand-icon {
-    font-size: 0.8em;
-    color: #8b4513;
-  }
-
-  .node-details {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-  }
-
-  .node-details.expanded {
-    max-height: 500px;
-    transition: max-height 0.3s ease-in;
-  }
-
-  .connector {
-    width: 2px;
-    height: 20px;
-    background-color: #8b4513;
-    margin-top: 5px;
-  }
+}
 
   .has-children::after {
     content: '';
@@ -121,6 +85,7 @@
   }
 
   p {
+    font-size: .75rem;
     margin: 0.5rem 0;
     color: #2c1810;
   }
@@ -144,4 +109,12 @@
   .scriptures li {
     color: #2c1810;
     margin: 0.2rem 0;
+  }
+
+  .connector {
+    width: 1px; 
+    height: 15px;
+    background-color: #000000;
+    margin-left: 149px;
+    position: relative;
   }

@@ -1,0 +1,15 @@
+<app-timeline-display 
+    [increment]="selectedIncrement" 
+    [incrementCount]="selectedIncrement">
+</app-timeline-display>
+<div class="timeline-person-container">
+  <app-person>
+  </app-person>
+  <app-person></app-person>
+</div>
+  <app-increment-drop-down
+    [selectedIncrement]="selectedIncrement"
+    [selectedCount]="selectedCount"
+    (incrementChange)="onIncrementChange($event)"
+    (countChange)="onCountChange($event)">
+  </app-increment-drop-down>

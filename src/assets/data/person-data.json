@@ -16,8 +16,8 @@
       "Shuah"
     ],
     "scriptures": [
-      { "book": "John", "chapter": 3, "verse": 16 },
-      { "book": "Genesis", "chapter": 1, "verse": 1 }
+      { "book": "Genesis", "chapter": 17, "startVerse": 5 },
+      { "book": "Genesis", "chapter": 1, "startVerse": 1 }
     ],
     "description": ""
   }, 
@@ -32,9 +32,490 @@
       "Jacob"
     ],
     "scriptures": [
-      { "book": "Genesis", "chapter": 17, "verse": 17 },
-      { "book": "Genesis", "chapter": 17, "verse": 19 }
+      { "book": "Genesis", "chapter": 17, "startVerse": 17 },
+      { "book": "Genesis", "chapter": 17, "startVerse": 19 }
     ],
     "description": ""
+  },
+  {
+    "id": 3,
+    "name": "Jacob",
+    "father": "Isaac",
+    "mother": "Sarah",
+    "spouse": "",
+    "children": [
+      "Rueben",
+      "Simeon",
+      "Levi",
+      "Judah",
+      "Issachar",
+      "Zebulun",
+      "Joseph",
+      "Benjamin",
+      "Naphatali",
+      "Dan",
+      "Gad",
+      "Asher"
+    ],
+    "scriptures": [
+      { "book": "Genesis", "chapter": 32, "startVerse": 26 },
+      { "book": "Genesis", "chapter": 32, "startVerse": 27 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Judah",
+    "father": "Jacob",
+    "mother": "Leah",
+    "spouse": "",
+    "children": [
+      "Zerah",
+      "Perez"
+    ],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Perez",
+    "father": "Judah",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Hezron"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hezron",
+    "father": "Perez",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Ram"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Ram",
+    "father": "Hezron",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Amminadab"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Amminadab",
+    "father": "Ram",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Nahshon"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Nahshon",
+    "father": "Amminadab",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Salmon"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Salmon",
+    "father": "Nahshon",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Boaz"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Boaz",
+    "father": "Salmon",
+    "mother": "",
+    "spouse": "Ruth",
+    "children": [
+      "Obed"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Obed",
+    "father": "Boaz",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      ""],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Jesse",
+    "father": "Obed",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "David"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 14,
+    "name": "David",
+    "father": "Jesse",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Solomon"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Solomon",
+    "father": "David",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Rehoboam"],
+    "scriptures": [  
+      
+    ]
+  }, 
+  {
+    "id": 16,
+    "name": "Rehoboam",
+    "father": "Solomon",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Abijah"],
+    "scriptures": [  
+      
+    ]
+  }, 
+  {
+    "id": 17,
+    "name": "Abijah",
+    "father": "Rehoboam",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Asa"],
+    "scriptures": [  
+      
+    ]
+  }, 
+  {
+    "id": 18,
+    "name": "Asa",
+    "father": "Abijah",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Jehoshaphat"],
+    "scriptures": [  
+      
+    ]
+  }, 
+  {
+    "id": 19,
+    "name": "Jehoshaphat",
+    "father": "Asa",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Jehoram"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Jehoram",
+    "father": "Jehoshaphat",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Uzziah"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Uzziah",
+    "father": "Jehoram",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Jotham"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Jotham",
+    "father": "Uzziah",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Ahaz"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Ahaz",
+    "father": "Jotham",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Hezekiah"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Hezekiah",
+    "father": "Ahaz",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Manasseh"],
+    "scriptures": [  
+      
+    ]
+  }, 
+  {
+    "id": 25,
+    "name": "Manasseh",
+    "father": "Hezekiah",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Amon"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Amon",
+    "father": "Manasseh",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Josiah"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Josiah",
+    "father": "Amon",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Jeconiah"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Jeconiah",
+    "father": "Josiah",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Shealtiel"],
+    "scriptures": [  
+      
+    ]
+  }, 
+  {"id": 29,
+    "name": "Shealtiel",
+    "father": "Jeconiah",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Zerubbabel"],
+    "scriptures": [  
+      
+    ]
+  }, 
+  {"id": 30,
+    "name": "Zerubbabel",
+    "father": "Shealtiel",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Abiud"],
+    "scriptures": [  
+      
+    ]
+  }, 
+  {
+    "id": 31,
+    "name": "Abiud",
+    "father": "Zerubbabel",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Eliakim"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Eliakim",
+    "father": "Abiud",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Azor"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Azor",
+    "father": "Eliakim",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Zadok"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Zadok",
+    "father": "Azor",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Akim"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Akim",
+    "father": "Zadok",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Eliud"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Eliud",
+    "father": "Akim",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Eleazar"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Eleazar",
+    "father": "Eliud",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Matthan"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Matthan",
+    "father": "Eleazar",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Jacob"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Jacob",
+    "father": "Matthan",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Joseph"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Joseph",
+    "father": "Jacob",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      "Jesus"],
+    "scriptures": [  
+      
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Jesus",
+    "father": "",
+    "mother": "",
+    "spouse": "",
+    "children": [
+      ""],
+    "scriptures": [  
+      
+    ]
   }
 ]

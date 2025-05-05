@@ -1,16 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Uncial+Antiqua&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Uncial+Antiqua&display=swap'); */
 
-body {
+body, html {
     font-family: "Uncial Antiqua", system-ui;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
     margin: 0;
-    background-color: #fafafa;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* height: 100vh; */
+    /* background-color: #fafafa; */
+    /* padding: 0; */
 }
 
-h1 {
+/* h1 {
     font-size: 3em;
     text-align: center;
     color: #333;
 }
+input {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Uncial Antiqua", system-ui;
+} */

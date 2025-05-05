@@ -8,8 +8,11 @@ import { Scripture } from "../scripture/scripture.model";
       public mother: string,
       public spouse: string,
       public children: string[],
-      public scriptures: Scripture[],
+      public scriptures?: Scripture[],
+      public birthDate?: Date,
+      public deathDate?: Date,
       public description?: string,
       public isExpanded?: boolean,
+      public image?: string,
     ) {}
   }

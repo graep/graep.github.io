@@ -1,0 +1,15 @@
+<div class="lineage-container">
+  <h1 class="title">Biblical Lineage</h1>
+  
+  <div class="main-line">
+    <!-- Main lineage list -->
+    <div class="person-entry" *ngFor="let person of mainLineage">
+      <app-person
+        [person]="person"
+        [allPersons]="persons">
+      </app-person>
+      <!-- Connector line to next person -->
+      <div class="connector" *ngIf="!isLast(person)"></div>
+    </div>
+  </div>
+</div>

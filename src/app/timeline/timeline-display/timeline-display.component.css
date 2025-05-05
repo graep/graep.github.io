@@ -1,0 +1,19 @@
+
+.timeline-container {
+  position: relative;
+  display: flex;
+  height: 1px;
+  border: solid 2px black;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 20px 5px 0 5px;
+  gap: .1rem;
+}
+
+.timeline {
+  position: relative;
+  top: -22px;
+  padding: .1%;
+  font-size: .8rem;
+}

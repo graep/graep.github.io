@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "sequence": "a",
+    "name": "Adam",
+    "father": null,
+    "mother": null,
+    "spouse": "Eve",
+    "children": ["Cain", "Abel", "Seth"],
+    "scriptures": [
+      {"book": "Genesis", "chapter": 2, "startVerse": 7},
+      {"book": "Genesis", "chapter": 3, "startVerse": 20}
+    ]
+  },
+  {
+    "id": 2,
+    "sequence": "b",
+    "name": "Seth",
+    "father": "Adam",
+    "mother": "Eve",
+    "spouse": "Azura", 
+    "children": ["Enos"],
+    "scriptures": [{"book": "Genesis", "chapter": 4, "startVerse": 25}]
+  },
+  {
+    "id": 3,
+    "sequence": "c",
+    "name": "Enos",
+    "father": "Seth",
+    "mother": "Azura",
+    "spouse": "Noam",
+    "children": ["Kenan"],
+    "scriptures": [{"book": "Genesis", "chapter": 4, "startVerse": 26}]
+  },
+  {
+    "id": 4,
+    "sequence": "d",
+    "name": "Kenan",
+    "father": "Enos",
+    "mother": "Noam",
+    "spouse": "Mualeleth",
+    "children": ["Mahalalel"],
+    "scriptures": [{"book": "Genesis", "chapter": 5, "startVerse": 9}]
+  },
+  {
+    "id": 5,
+    "sequence": "a",
+    "name": "Mahalalel",
+    "father": "Kenan",
+    "mother": "Mualeleth",
+    "spouse": "Dinah",
+    "children": ["Jared"],
+    "scriptures": [{"book": "Genesis", "chapter": 5, "startVerse": 12}]
+  },
+  {
+    "id": 6,
+    "sequence": "b",
+    "name": "Jared",
+    "father": "Mahalalel",
+    "mother": "Dinah",
+    "spouse": "Baraka",
+    "children": ["Enoch"],
+    "scriptures": [{"book": "Genesis", "chapter": 5, "startVerse": 15}]
+  },
+  {
+    "id": 7,
+    "sequence": "c",
+    "name": "Enoch",
+    "father": "Jared",
+    "mother": "Baraka",
+    "spouse": "Edna",
+    "children": ["Methuselah"],
+    "scriptures": [{"book": "Genesis", "chapter": 5, "startVerse": 18}]
+  },
+  {
+    "id": 8,
+    "sequence": "d",
+    "name": "Methuselah",
+    "father": "Enoch",
+    "mother": "Edna",
+    "spouse": "Edna",
+    "children": ["Lamech"],
+    "scriptures": [{"book": "Genesis", "chapter": 5, "startVerse": 21}]
+  },
+  {
+    "id": 9,
+    "sequence": "a",
+    "name": "Lamech",
+    "father": "Methuselah",
+    "mother": "Edna",
+    "spouse": "Betenos",
+    "children": ["Noah"],
+    "scriptures": [{"book": "Genesis", "chapter": 5, "startVerse": 25}]
+  },
+  {
+    "id": 10,
+    "sequence": "b",
+    "name": "Noah",
+    "father": "Lamech",
+    "mother": "Betenos",
+    "spouse": "Naamah",
+    "children": ["Shem", "Ham", "Japheth"],
+    "scriptures": [{"book": "Genesis", "chapter": 5, "startVerse": 29}]
+  }
+ ]
